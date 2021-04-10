@@ -1,0 +1,19 @@
+<style type="text/css">
+	
+	h1 {
+
+		color: #2b275e;
+		text-transform: uppercase;
+	}
+
+</style>
+<div>
+
+    <h1 id="name">{{project.project_name}}</h1>
+    <p style="font-size: 22px">{{project.description}}</p>
+    <img src = "{{project.image.url}}" width="50%" height="50%">
+    <h1>Tech used : {{project.tech_used}}</h1>
+    <h1>Project Link: </h1>
+ 	<a href={{project.code_link}}>{{project.code_link}}</a>
+
+</div>
